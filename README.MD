@@ -1,4 +1,4 @@
-This is back-end
+This is front-end
 ===
 **Front-end domain:** https://f-imhio.geekhare.me
 *repository:* https://github.com/GeekHare/imhio-frontend
