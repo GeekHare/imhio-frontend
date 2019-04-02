@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.form-block {
+    width: 500px;
+    min-height: 30px;
+    background-color: #f5f2ea;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+}
+
+#messages {
+    margin-bottom: 10px;
+    background-color: #e6e3da;
+}
+
+#messages p {
+    padding: 10px;
+}

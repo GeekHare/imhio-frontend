@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validate email</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="form-block">
+        <div id="messages"></div>
+        <form action="http://bimhio.local" method="post" id="form">
+            <div class="form">
+                <label>Email:
+                    <!--<input id="input" type="email" placeholder="name@domain.com" required="required">-->
+                    <input id="input" type="text"><!-- this is input for tests -->
+                </label>
+                <!--<input type="submit" value="SEND">-->
+                <button type="submit">Validate email</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
